@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Conv_Inconsolata-Bold";
+    src: url("./fonts/Inconsolata-Bold/Inconsolata-Bold.eot");
+    src: local("☺"), url("./fonts/Inconsolata-Bold/Inconsolata-Bold.woff") format("woff"), url("./fonts/Inconsolata-Bold/Inconsolata-Bold.ttf") format("truetype"), url("./fonts/Inconsolata-Bold/Inconsolata-Bold.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Conv_Inconsolata-Medium";
+    src: url("./fonts/Inconsolata-Medium/Inconsolata-Medium.eot");
+    src: local("☺"), url("./fonts/Inconsolata-Medium/Inconsolata-Medium.woff") format("woff"), url("./fonts/Inconsolata-Medium/Inconsolata-Medium.ttf") format("truetype"), url("./fonts/Inconsolata-Medium/Inconsolata-Medium.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Conv_Inconsolata-SemiBold";
+    src: url("./fonts/Inconsolata-SemiBold/Inconsolata-SemiBold.eot");
+    src: local("☺"), url("./fonts/Inconsolata-SemiBold/Inconsolata-SemiBold.woff") format("woff"), url("./fonts/Inconsolata-SemiBold/Inconsolata-SemiBold.ttf") format("truetype"), url("./fonts/Inconsolata-SemiBold/Inconsolata-SemiBold.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Conv_Inconsolata-Light";
+    src: url("./fonts/Inconsolata-Light/Inconsolata-Light.eot");
+    src: local("☺"), url("./fonts/Inconsolata-Light/Inconsolata-Light.woff") format("woff"), url("./fonts/Inconsolata-Light/Inconsolata-Light.ttf") format("truetype"), url("./fonts/Inconsolata-Light/Inconsolata-Light.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Conv_Inconsolata-Regular";
+    src: url("./fonts/Inconsolata-Regular/Inconsolata-Regular.eot");
+    src: local("☺"), url("./fonts/Inconsolata-Regular/Inconsolata-Regular.woff") format("woff"), url("./fonts/Inconsolata-Regular/Inconsolata-Regular.ttf") format("truetype"), url("./fonts/Inconsolata-Regular/Inconsolata-Regular.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* -- GLOBAL -- */
+#root {
+    width: 100%;
+}
+html, body {
+  background: #29294a;
+  box-shadow: none;
+  font-family: "Conv_Inconsolata-Light";
+  color: #d9d9e9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Conv_Inconsolata-Medium";
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+a:hover {
+  color: #00f0ff;
+  text-decoration: underline;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.text-light {
+  font-family: "Conv_Inconsolata-Light";
+}
+
+.text-medium {
+  font-family: "Conv_Inconsolata-Medium";
+}
+
+.text-bold {
+  font-family: "Conv_Inconsolata-Bold";
+}
+
+.text-primary {
+  color: #00f0ff !important;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.btn-outline-primary {
+  border: 1px solid #00f0ff;
+  background: transparent;
+  color: #00f0ff;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+}
+.btn-outline-primary:hover {
+  color: #00f0ff;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #00f0ff;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:focus, .btn-outline-primary.focus {
+  box-shadow: none;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active {
+  border-color: #00f0ff;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+}
+
+.marker {
+  margin-right: 7px;
+  color: #00f0ff;
+}
+
+/* -- SECTIONS -- */
+.row {
+  position: relative;
+}
+.row:nth-child(even) .section-header {
+  background: rgba(35, 35, 62, 0.8);
+}
+
+.section-bg-opacity {
+  background: rgba(255, 255, 255, 0.01);
+  position: absolute;
+  height: inherit;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.section-header {
+  background: #23233e;
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px 0;
+}
+.section-header .section-header-content {
+  width: 400px;
+  text-align: right;
+  padding-right: 50px;
+}
+.section-header img {
+  width: 280px;
+}
+
+.hero {
+  height: 100vh;
+  align-items: center;
+}
+.hero .section-header-content {
+  padding-right: 35px;
+}
+.hero img {
+  width: 280px;
+}
+.hero .sap {
+  height: 40px !important;
+  width: 40px !important;
+}
+.hero .soc-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hero .soc-media li {
+  margin-right: 20px;
+}
+.hero .soc-media a.soc-media-icon {
+  width: 20px;
+  height: 20px;
+}
+.hero .soc-media a.soc-media-icon:hover {
+  color: #00f0ff;
+}
+.hero .soc-media a.soc-media-icon svg {
+  width: inherit;
+  height: inherit;
+}
+
+/* -- CONTENT -- */
+.section-content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px 0;
+}
+.section-content-wrapper .section-content {
+  width: 624px;
+  padding-left: 60px;
+}
+.section-content-wrapper .section-content p:last-child {
+  margin-bottom: 0;
+}
+
+.expertise-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+.expertise-list li {
+  padding: 2px 12px;
+  margin: 0 8px 8px 0;
+  background: #242440;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+}
+.expertise-list img {
+  width: 18px;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  width: 1px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: #00f0ff;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: 9px;
+  left: -6px;
+  width: 13px;
+  height: 13px;
+  z-index: 400;
+}
+ul.timeline a {
+  color: #00f0ff;
+}
+ul.timeline .text-small {
+  margin-bottom: 0;
+  color: #b5b5d6;
+}
+ul.timeline .description {
+  margin-top: 15px;
+}
+
+.role {
+  font-family: "Conv_Inconsolata-Bold";
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.skill-icon {
+  margin-right: 5px;
+}
+
+.fa-icon {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.strong {
+  font-weight: 500;
+}
+
+.sap-link {
+  font-style: italic;
+  font-weight: bolder;
+  color: #00f0ff;
+}
+
+/*# sourceMappingURL=style.css.map */
+
