@@ -14,7 +14,7 @@ const _renderCover = () => {
           <div className="section-header-content">
             <img src={mugshot} alt="Leo Angelo Diaz Avatar" />
             <h1 className="display-4">Leo Diaz</h1>
-            <h5 className="text-light">Software Engineer</h5>
+            <h5 className="text-light">Senior Engineer</h5>
           </div>
         </div>
         <div className="col-md-7 section-content-wrapper hero">
