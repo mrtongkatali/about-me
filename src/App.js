@@ -5,7 +5,7 @@ import FadeIn from "react-fade-in"
 import mugshot from "@/assets/images/leod-mugshot.png"
 
 const _renderCover = () => {
-  const [cvUrl] = React.useState("https://dqmclbtur02qg.cloudfront.net/LeoDiaz-Resume-2021-v3-min.pdf");
+  const [cvUrl] = React.useState("https://leodiaz-public.s3.ap-southeast-1.amazonaws.com/LeoDiaz-Resume-Dec2022.pdf");
   const [showContactInfo, setShowContactInfo] = React.useState(false);
 
   return (
