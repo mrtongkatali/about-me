@@ -20,14 +20,14 @@ const _renderCover = () => {
         <div className="col-md-7 section-content-wrapper hero">
           <div className="section-content">
             <Typing speed={10} onFinishedTyping={() => setShowContactInfo(true)}>
-              <p>Hi, I'm a Software Engineer based in Manila, PH.</p>
+              <p>Hi, I'm a Software Engineer based in Manila, Philippines.</p>
               <p>
                 I work mostly on major Javascript frameworks such as Vue, React, Typescript and Node.
               </p>
               <p>I have good niche on backend development using Python, MySQL, Elasticsearch and AWS as well.</p>
 
               <p>
-                I recently passed the <a className="sap-link" href="https://www.credly.com/badges/6d8f8e59-aa14-4fef-90da-e95af9fd0d11" target="_blank" rel="noreferrer">AWS Solutions Architect</a> exam and I'm super keen to work with projects that use this stack.
+                I recently cleared the <a className="sap-link" href="https://www.credly.com/badges/6d8f8e59-aa14-4fef-90da-e95af9fd0d11" target="_blank" rel="noreferrer">AWS Solutions Architect</a> exam and extremely enthusiastic about collaborating on projects that leverage this technology stack.
               </p>
 
               <p>You can reach out and say hello to me through my email below.</p>
