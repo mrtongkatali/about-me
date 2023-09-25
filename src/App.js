@@ -6,7 +6,7 @@ import mugshot from "./assets/images/leod-mugshot.png";
 
 const _renderContent = () => {
   const [cvUrl] = React.useState(
-    "https://leodiaz-public.s3.ap-southeast-1.amazonaws.com/LeoDiaz-Resume-Dec2022.pdf"
+    "https://leodiaz-public.s3.ap-southeast-1.amazonaws.com/LeoDiaz-Resume-Sep2023.pdf"
   );
   const [showContactInfo, setShowContactInfo] = React.useState(false);
 
