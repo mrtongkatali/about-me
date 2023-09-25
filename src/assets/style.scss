@@ -327,4 +327,37 @@ ul.timeline .description {
   color: #00f0ff;
 }
 
+/*
+* Responsiveness
+*/
+
+@media (max-width: 766px) {
+  .section-content-wrapper .section-content {
+    padding: 0 40px;
+  }
+
+  .get-resume {
+    display: block;
+  }
+
+  .hero .soc-media {
+    display: block;
+
+    div:first-child li {
+      margin-right: 0;
+      margin-bottom: 30px;
+
+      a {
+        width: 100%;
+      }
+    }
+
+    div:nth-child(2) li,
+    div:nth-child(3) li {
+      float: left;
+      margin: 0 38px 0 10px !important;       
+    }
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

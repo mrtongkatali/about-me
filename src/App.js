@@ -12,14 +12,14 @@ const _renderContent = () => {
 
   return (
     <>
-      <div className="col-md-5 section-header hero">
+      <div className="col-xs-12 col-md-5 section-header hero">
         <div className="section-header-content">
           <img src={mugshot} alt="Leo Angelo Diaz Avatar" />
           <h1 className="display-4">Leo Diaz</h1>
           <h5 className="text-light">Software Engineer</h5>
         </div>
       </div>
-      <div className="col-md-7 section-content-wrapper hero">
+      <div className="col-xs-12 col-md-7 section-content-wrapper hero">
         <div className="section-content">
           <Typing speed={9} onFinishedTyping={() => setShowContactInfo(true)}>
             <p>Hi, I'm a Software Engineer based in Manila, Philippines.</p>
@@ -57,6 +57,7 @@ const _renderContent = () => {
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-outline-primary"
+                      id = "get-resume"
                     >
                       Get My Resume
                     </a>
@@ -77,7 +78,7 @@ const _renderContent = () => {
                         focusable="false"
                         data-prefix="fab"
                         data-icon="linkedin-in"
-                        class="svg-inline--fa fa-linkedin-in fa-w-14"
+                        className="svg-inline--fa fa-linkedin-in fa-w-14"
                         role="img"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512"
