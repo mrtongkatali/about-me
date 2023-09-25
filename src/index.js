@@ -6,8 +6,8 @@ import "./assets/cover.scss";
 import "./assets/style.scss";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <App />
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById("root")
 );

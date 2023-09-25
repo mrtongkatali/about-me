@@ -14,7 +14,7 @@ const _renderContent = () => {
     <>
       <div className="col-xs-12 col-md-5 section-header hero">
         <div className="section-header-content">
-          <img src={mugshot} alt="Leo Angelo Diaz Avatar" />
+          <img src={mugshot} alt="Leo Angelo Diaz Avatar" className="mugshot" />
           <h1 className="display-4">Leo Diaz</h1>
           <h5 className="text-light">Software Engineer</h5>
         </div>
