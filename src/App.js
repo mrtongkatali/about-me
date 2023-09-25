@@ -21,7 +21,7 @@ const _renderContent = () => {
       </div>
       <div className="col-md-7 section-content-wrapper hero">
         <div className="section-content">
-          <Typing speed={10} onFinishedTyping={() => setShowContactInfo(true)}>
+          <Typing speed={9} onFinishedTyping={() => setShowContactInfo(true)}>
             <p>Hi, I'm a Software Engineer based in Manila, Philippines.</p>
             <p>
               I work mostly on major Javascript frameworks such as Vue, React,
@@ -37,13 +37,13 @@ const _renderContent = () => {
               >
                 AWS Solutions Architect
               </a>{" "}
-              exam and am extremely enthusiastic about collaborating on
+              exam and am extremely enthusiastic about working on
               projects that leverage this technology stack.
             </p>
 
             <p>
               I'm always open to new opportunities and collaborations, so feel
-              free to reach out to me via email below
+              free to reach out to me via my email below
             </p>
           </Typing>
 
