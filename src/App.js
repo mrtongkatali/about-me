@@ -28,7 +28,7 @@ const _renderContent = () => {
               Typescript and Node.
             </p>
             <p>
-              I recently passed the{" "}
+              I passed the{" "}
               <a
                 className="sap-link"
                 href="https://www.credly.com/badges/6d8f8e59-aa14-4fef-90da-e95af9fd0d11"
