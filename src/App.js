@@ -4,7 +4,7 @@ import FadeIn from "react-fade-in";
 
 import mugshot from "./assets/images/leod-mugshot.png";
 
-const _renderCover = () => {
+const _renderContent = () => {
   const [cvUrl] = React.useState(
     "https://leodiaz-public.s3.ap-southeast-1.amazonaws.com/LeoDiaz-Resume-Dec2022.pdf"
   );
@@ -28,7 +28,7 @@ const _renderCover = () => {
               Typescript and Node.
             </p>
             <p>
-              I recently cleared the{" "}
+              I recently passed the{" "}
               <a
                 className="sap-link"
                 href="https://www.credly.com/badges/6d8f8e59-aa14-4fef-90da-e95af9fd0d11"
@@ -37,7 +37,7 @@ const _renderCover = () => {
               >
                 AWS Solutions Architect
               </a>{" "}
-              exam and I'm extremely enthusiastic about collaborating on
+              exam and am extremely enthusiastic about collaborating on
               projects that leverage this technology stack.
             </p>
 
@@ -140,7 +140,7 @@ const App = () => {
 
   return (
     <div className="container-fluid px-0 position-relative">
-      <div className="row no-gutters">{_renderCover()}</div>
+      <div className="row no-gutters">{_renderContent()}</div>
     </div>
   );
 };
