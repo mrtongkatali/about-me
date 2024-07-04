@@ -6,7 +6,7 @@ import mugshot from "./assets/images/leod-mugshot.png";
 
 const _renderContent = () => {
   const [cvUrl] = React.useState(
-    "https://leodiaz-public.s3.ap-southeast-1.amazonaws.com/LeoDiaz-Resume-Sep2023.pdf"
+    "https://leodiaz-public.s3.ap-southeast-1.amazonaws.com/LeoDiaz-Resume-July2024.pdf"
   );
   const [showContactInfo, setShowContactInfo] = React.useState(false);
 
@@ -21,7 +21,7 @@ const _renderContent = () => {
       </div>
       <div className="col-xs-12 col-md-7 section-content-wrapper hero">
         <div className="section-content">
-          <Typing speed={9} onFinishedTyping={() => setShowContactInfo(true)}>
+          <Typing speed={5} onFinishedTyping={() => setShowContactInfo(true)}>
             <p>Hi, I'm a Software Engineer based in Manila, Philippines.</p>
             <p>
               I work mostly on major Javascript frameworks such as Vue, React,
